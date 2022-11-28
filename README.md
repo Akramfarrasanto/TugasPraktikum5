@@ -26,4 +26,29 @@
 
 ## Daftar Nilai Mahasiswa Menggunakan Dictionary
 ### 1. Kita menggunakan Dictionary untuk membuat sebuah program data yang di inputkan ketika program di jalankan. 
+![gambar10](https://user-images.githubusercontent.com/115552876/204171512-9a07f5a1-e88e-4f85-8d3a-565e22d8d6b4.png)
+### 2. Lalu membuat kondisi perulangan dan sebuah keterangan untuk pilihan menu yang akan menjalankan program.
+![gambar11](https://user-images.githubusercontent.com/115552876/204171662-5d5d259c-64d3-402e-a03e-3f205d226d60.png)
+### 3. Membuat sintaks untuk menambahkan data.
+![gambar12](https://user-images.githubusercontent.com/115552876/204171735-51331f4d-3fdc-4e7f-a8fd-f29f6b109ef3.png)
+#### - Disini apabila kita menginputkan 't' maka kita akan diminta untuk menginputkan beberapa data. Data yang kita inputkan akan masuk ke Dictionary 'Data' yang telah dibuat tadi dengan data 'nama' sebagai kunci dan sisanya sebagai nilai.
+### 4. Membuat sintaks untuk mengubah data.
+![gambar13](https://user-images.githubusercontent.com/115552876/204172180-56218067-f906-453d-bcc3-601017fd0922.png)
+#### - Apabila kita menginputkan 'u' maka akan ada keterangan untuk mengubah data dan kita akan diminta untuk menginputkan nama yang mau diubah datanya, apabila nama tidak ada maka outputnya "Nama {} tidak di temukan". Dimana {} adalah nama/data yang mau di kita ubah.
+### 5. Membuat sintaks untuk menghapus data.
+![gambar14](https://user-images.githubusercontent.com/115552876/204172780-b2b389dc-bca9-4d89-9980-72366f3af022.png)
+#### - Apabila kita menginput 'h' maka akan diminta menginput nama yang akan dihapus. Jika nama ada di didalam Dictionary, maka sistem akan menghapus kunci/nama tersebut beserta nilainya pada statement del Data[Nama].
+### 6. Membuat sintaks untuk mencari data
+![gambar15](https://user-images.githubusercontent.com/115552876/204173210-5af40bc4-9343-46fd-a0c6-3d16f4374c5d.png)
+#### - Apabila kita menginputkan 'c' maka kita akan diminta untuk memasukkan nama yang akan di cari. Apabila nama yang dicari ada di dalam Dictionary maka keluaranya akan menampilkan data dari nama tersebut.
+### 7. Membuat sintaks untuk melihat atau menampilkan data.
+![gambar16](https://user-images.githubusercontent.com/115552876/204173580-363a25ea-83e7-49ff-ab32-94a3bd277904.png)
+#### - Apabila menginputkan 'l' maka sistem akan menampilkan data-data yang sudah kita masukkan. Jika kita belum memasukkan data maka outputnya menjadi "TIDAK ADA DATA".
+### 8. Sintaks untuk menghentikan perulangan.
+![gambar17](https://user-images.githubusercontent.com/115552876/204173909-43673525-f476-4438-8719-d7aa81037b70.png)
+#### - Apabila kita menginputkan 'K' maka program akan langsung terhenti.
+### Kode program
+![gambar21](https://user-images.githubusercontent.com/115552876/204174091-546e0e27-59db-41aa-b19f-07647b272018.png)
+### Hasil Run dari kode Program
+<img width="690" alt="gambar22" src="https://user-images.githubusercontent.com/115552876/204174172-c397f9b9-d9ce-44b0-9fcf-02568e25bd0d.png">
 
